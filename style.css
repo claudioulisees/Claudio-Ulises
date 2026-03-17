@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+}
+
+/* CONTENEDOR */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* PERFIL */
+.perfil-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.perfil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #2563eb;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.frase {
+    color: #3b82f6;
+    margin: 5px 0;
+}
+
+.ubicacion {
+    color: #aaa;
+}
+
+/* BOTÓN PRINCIPAL */
+.btn-principal {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.btn-principal:hover {
+    background: #1e40af;
+}
+
+/* CONFIANZA */
+.confianza {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* CARDS */
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+/* TITULOS */
+h2 {
+    margin-bottom: 10px;
+    color: #3b82f6;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+/* LINKS */
+.links a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* BOTONES */
+.btn {
+    display: inline-block;
+    margin-top: 8px;
+    background: transparent;
+    border: 1px solid #2563eb;
+    color: #3b82f6;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2563eb;
+    color: white;
+}
+
+/* REDES */
+.redes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
+/* BOTÓN FLOTANTE */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 14px;
+  }
